@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Modelo</title>
+  </head>
+
+  <body>
+    <section class="container">
+      <h1>Password Generator</h1>
+
+      <div
+        class="generated-password"
+        style="color: red; font-size: 1.5em;"
+      ></div>
+
+      Number of characters:
+      <input type="number" min="1" max="50" value="10" class="qnt-char" />
+      <br />Add Capital Letter:
+      <input type="checkbox" class="chk-cap" checked /><br />
+      Add LowerCase letter:
+      <input type="checkbox" class="chk-low" checked /><br />
+      Add Numbers: <input type="checkbox" class="chk-num" checked /> <br />
+      Add symbols:
+      <input type="checkbox" class="chk-symb" checked /> <br />
+
+      <button class="gen-pass">Generate Password</button>
+    </section>
+
+    <script src="./assets/js/bundle.js"></script>
+  </body>
+</html>
